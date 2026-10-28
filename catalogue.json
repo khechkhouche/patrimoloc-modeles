@@ -1,0 +1,77 @@
+{
+  "updatedAt": "2026-10-28T19:17:49Z",
+  "templates": [
+    {
+      "id": "be-residence-principale",
+      "country": "BE",
+      "language": "fr",
+      "title": "Bail de résidence principale (Belgique) — brouillon",
+      "version": "1",
+      "fileUrl": "https://khechkhouche.github.io/patrimoloc-modeles/be-residence-principale_v1.docx",
+      "sha256": "e91636c52a5946ad5a04540985ab3c5d283bf3b3d013839ed5ac85e8806744e3",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 2962,
+      "notes": "Brouillon non validé. Le droit du bail d’habitation est régional (Bruxelles, Wallonie, Flandre) : vérifier la région du bien (annexe obligatoire, durées, indexation, garantie)."
+    },
+    {
+      "id": "ch-bail-habitation",
+      "country": "CH",
+      "language": "fr",
+      "title": "Contrat de bail à loyer d’habitation (Suisse) — brouillon",
+      "version": "1",
+      "fileUrl": "https://khechkhouche.github.io/patrimoloc-modeles/ch-bail-habitation_v1.docx",
+      "sha256": "5f5658fe530f955c176d18266932566d22e24a37aa974b49bd875bd07654bc49",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 2865,
+      "notes": "Brouillon non validé. Dans de nombreux cantons, le bailleur doit remettre la formule officielle de notification du loyer initial et utiliser les formules cantonales : ce brouillon complète, il ne les remplace pas."
+    },
+    {
+      "id": "es-arrendamiento-vivienda",
+      "country": "ES",
+      "language": "es",
+      "title": "Contrato de arrendamiento de vivienda habitual (España) — borrador",
+      "version": "1",
+      "fileUrl": "https://khechkhouche.github.io/patrimoloc-modeles/es-arrendamiento-vivienda_v1.docx",
+      "sha256": "cc14448b55314257a5f469b5edbc90085162e339c9351fb44e23855354c9cdaf",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 2832,
+      "notes": "Borrador no validado. Base: Ley de Arrendamientos Urbanos (LAU). Las comunidades autónomas y las zonas tensionadas pueden modificar renta, fianza y actualización: comprobar la normativa vigente en la fecha de firma."
+    },
+    {
+      "id": "pt-arrendamento-habitacional",
+      "country": "PT",
+      "language": "pt",
+      "title": "Contrato de arrendamento para habitação (Portugal) — rascunho",
+      "version": "1",
+      "fileUrl": "https://khechkhouche.github.io/patrimoloc-modeles/pt-arrendamento-habitacional_v1.docx",
+      "sha256": "68d1c9701573220cb464e3608bf354549bdbae810e29cbbb688aef507fbed742",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 2620,
+      "notes": "Rascunho não validado. Base: Código Civil e NRAU. O regime de arrendamento muda com frequência: confirmar as regras em vigor na data de assinatura."
+    },
+    {
+      "id": "gb-england-tenancy",
+      "country": "GB",
+      "language": "en",
+      "title": "Residential tenancy agreement (England) — draft",
+      "version": "1",
+      "fileUrl": "https://khechkhouche.github.io/patrimoloc-modeles/gb-england-tenancy_v1.docx",
+      "sha256": "c7d6f5754bf3a57cc6b8e4de472636c2d7a3e55bc9001fa92da09d9c5a0e8e27",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 2732,
+      "notes": "Draft, not legally validated. England has been changing its tenancy regime (Renters’ Rights Act 2025); Scotland (Private Residential Tenancy) and Wales (occupation contract) use different official models."
+    },
+    {
+      "id": "ie-residential-tenancy",
+      "country": "IE",
+      "language": "en",
+      "title": "Residential tenancy agreement (Ireland) — draft",
+      "version": "1",
+      "fileUrl": "https://khechkhouche.github.io/patrimoloc-modeles/ie-residential-tenancy_v1.docx",
+      "sha256": "5da822da6a4580e1a1e19432ff18bd0cac59e992741fd6d141e843e345c8fd0e",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 2410,
+      "notes": "Draft, not legally validated. The Residential Tenancies Acts and the Residential Tenancies Board (RTB) rules, including rent pressure zones, must be checked on the signing date."
+    }
+  ]
+}
