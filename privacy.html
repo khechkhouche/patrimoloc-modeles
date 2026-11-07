@@ -43,6 +43,7 @@
 <li><strong>Compte (nécessaire)</strong> : adresse e-mail, identifiant de compte et, selon votre choix, connexion via Google. Finalité : vous authentifier, vous envoyer les e-mails de confirmation et de réinitialisation du mot de passe, retrouver vos données sur un autre téléphone.</li>
 <li><strong>Copie du compte dans le cloud (Premium, facultative)</strong> : un fichier chiffré de bout en bout, hébergé par Google Firebase (Firestore, région Europe). Son contenu est illisible sans votre clé de récupération. Finalité : sauvegarde et reprise sur un autre téléphone.</li>
 <li><strong>Abonnement Premium</strong> : l'achat est géré par Google Play. Nous recevons, via notre prestataire RevenueCat, l'état de votre abonnement (actif, essai, date de fin) associé à un identifiant technique, pas vos moyens de paiement. Finalité : débloquer les fonctions Premium.</li>
+<li><strong>Prévention des abus de l'essai gratuit</strong> : l'essai Premium est limité à un par personne et par appareil. Pour cela, nous conservons sur nos serveurs (Firebase) deux empreintes irréversibles (SHA-256) : celle de votre adresse e-mail normalisée et celle de l'identifiant Android de votre téléphone. Nous ne conservons ni l'adresse ni l'identifiant en clair, et ces empreintes ne permettent pas de les retrouver. Base légale : intérêt légitime (prévention de la fraude).</li>
 <li><strong>Connexions techniques sans donnée personnelle</strong> : téléchargement de modèles de bail et de l'indice IRL depuis un hébergement de fichiers publics, à votre demande ou une fois par semaine (désactivable dans les paramètres).</li>
 <li><strong>Journal d'incidents</strong> : les erreurs de l'application sont enregistrées localement sur votre téléphone. Elles ne sont envoyées que si vous choisissez de les partager.</li>
 </ul>
@@ -64,6 +65,7 @@
 <li>Données sur votre téléphone : jusqu'à ce que vous les supprimiez ou désinstalliez l'application.</li>
 <li>Compte et copie cloud : tant que le compte existe, ou jusqu'à ce que vous supprimiez la copie ou le compte.</li>
 <li>Après la fin d'un abonnement Premium, la copie cloud est conservée <strong>90 jours</strong> (avec rappels à 30 et 7 jours), puis supprimée. Vos données sur le téléphone ne sont jamais supprimées.</li>
+<li>Empreintes anti-abus de l'essai gratuit : conservées même après la suppression du compte, sans limite de durée, afin qu'un essai ne puisse pas être obtenu à nouveau en recréant un compte.</li>
 </ul>
 </div>
 
@@ -125,6 +127,7 @@
 <li><strong>Account (required)</strong>: e-mail address, account identifier and, if you choose, Google sign-in. Purpose: to authenticate you, to send confirmation and password-reset e-mails, and to recover your data on another phone.</li>
 <li><strong>Cloud copy of your account (Premium, optional)</strong>: an end-to-end encrypted file hosted by Google Firebase (Firestore, Europe). Its content is unreadable without your recovery key. Purpose: backup and recovery on another phone.</li>
 <li><strong>Premium subscription</strong>: the purchase is handled by Google Play. Through our provider RevenueCat we receive your subscription status (active, trial, end date) linked to a technical identifier, not your payment details. Purpose: to unlock Premium features.</li>
+<li><strong>Free-trial abuse prevention</strong>: the Premium trial is limited to one per person and per device. To do so, we keep on our servers (Firebase) two irreversible fingerprints (SHA-256): one of your normalized e-mail address and one of your phone's Android identifier. We do not keep the address or the identifier in clear, and the fingerprints cannot be used to recover them. Legal basis: legitimate interest (fraud prevention).</li>
 <li><strong>Technical connections without personal data</strong>: lease templates and the IRL index are downloaded from a public file host, on request or once a week (can be turned off in settings).</li>
 <li><strong>Incident log</strong>: app errors are recorded locally on your phone and only sent if you choose to share them.</li>
 </ul>
@@ -146,6 +149,7 @@
 <li>Data on your phone: until you delete it or uninstall the app.</li>
 <li>Account and cloud copy: as long as the account exists, or until you delete the copy or the account.</li>
 <li>After a Premium subscription ends, the cloud copy is kept for <strong>90 days</strong> (with reminders at 30 and 7 days), then deleted. Data on your phone is never deleted.</li>
+<li>Free-trial fingerprints: kept even after the account is deleted, with no time limit, so that a trial cannot be obtained again by re-creating an account.</li>
 </ul>
 </div>
 
